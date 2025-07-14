@@ -5,9 +5,9 @@ New-Item -ItemType Directory -Path $dir_name -Force | Out-Null
 cd $dir_name
 
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2021/08/FINALDigitalZine-1-1.pdf -OutFile "PROMPT# Issue: Choose Wisely"
-Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2022/02/Zine_FINAL_all_pages.pdf -OutFile "Issue: Better Together"
-Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2022/10/SOC_issue_WEB_PDF_all_pages.pdf -OutFile "Issue: SOC Edition"
-Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2023/04/TH_ZINE_web_cropped_spreads.pdf -OutFile "Issue: Threat Hunting Edition"
+Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2022/02/Zine_FINAL_all_pages.pdf -OutFile "PROMPT# Issue: Better Together"
+Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2022/10/SOC_issue_WEB_PDF_all_pages.pdf -OutFile "PROMPT# Issue: SOC Edition"
+Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2023/04/TH_ZINE_web_cropped_spreads.pdf -OutFile "PROMPT# Issue: Threat Hunting Edition"
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2023/06/COMIC_PROMPT_Darknet_Jeremy_Online_Complete.pdf -OutFile "PROMPT# - SPECIAL EDITION: Comic Book Adaptation - Darknet Diaries "Jeremy in Marketing" 20-Pages"
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2023/11/Survival_Guide_SECOND_EDITION_JAN25.pdf -OutFile "PROMPT# Issue: Infosec Survival Guide - Yellow Book"
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2024/07/FINAL_DarknetDiariesCorruptedTrust_071124.pdf -OutFile "PROMPT# - SPECIAL EDITION: Comic Book Adaptation - Darknet Diaries - Corrupted Trust"
