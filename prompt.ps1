@@ -2,7 +2,7 @@ Write-Host "Note: This script was last updated at 15/07/2025 and may be out of s
 
 $dir_name = "Prompt#"
 New-Item -ItemType Directory -Path $dir_name -Force | Out-Null
-cd $dir_name
+Set-Location $dir_name
 
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2021/08/FINALDigitalZine-1-1.pdf -OutFile "PROMPT# Issue: Choose Wisely"
 Invoke-WebRequest https://www.blackhillsinfosec.com/wp-content/uploads/2022/02/Zine_FINAL_all_pages.pdf -OutFile "PROMPT# Issue: Better Together"
